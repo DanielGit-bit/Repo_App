@@ -92,8 +92,8 @@
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="151dp"
         android:layout_height="46dp"
-        android:layout_marginStart="128dp"
-        android:layout_marginLeft="128dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginLeft="132dp"
         android:layout_marginTop="64dp"
         android:layout_marginBottom="276dp"
         android:fontFamily="casual"
@@ -101,7 +101,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Contraseña_txt"
-        app:layout_constraintVertical_bias="0.319" />
+        app:layout_constraintVertical_bias="0.212" />
 
     <Button
         android:id="@+id/Boton_ir_registrarse"
