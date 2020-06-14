@@ -1,0 +1,2 @@
+rootProject.name='App Compra Online'
+include ':app'

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondo"
     tools:context=".menu_logeadoActivity">
 
     <Button
@@ -89,8 +90,8 @@
 
     <ImageView
         android:id="@+id/imageView29"
-        android:layout_width="177dp"
-        android:layout_height="93dp"
+        android:layout_width="226dp"
+        android:layout_height="160dp"
         android:layout_marginStart="110dp"
         android:layout_marginLeft="110dp"
         android:layout_marginTop="237dp"
@@ -99,11 +100,11 @@
         android:layout_marginBottom="500dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.361"
+        app:layout_constraintHorizontal_bias="0.857"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/delivery" />
+        app:layout_constraintVertical_bias="0.367"
+        app:srcCompat="@drawable/w" />
 
     <TextView
         android:id="@+id/textView70"
@@ -111,7 +112,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="108dp"
         android:layout_marginLeft="108dp"
-        android:layout_marginTop="168dp"
+        android:layout_marginTop="128dp"
         android:text="COMPRA ALIMENTOS ONLINE"
         android:textColor="@android:color/background_dark"
         app:layout_constraintStart_toStartOf="parent"

@@ -2,14 +2,15 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
     tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/imageView9"
-        android:layout_width="177dp"
-        android:layout_height="93dp"
+        android:layout_width="240dp"
+        android:layout_height="162dp"
         android:layout_marginStart="110dp"
         android:layout_marginLeft="110dp"
         android:layout_marginTop="237dp"
@@ -18,11 +19,11 @@
         android:layout_marginBottom="500dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.419"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.303"
-        app:srcCompat="@drawable/delivery" />
+        app:layout_constraintVertical_bias="0.423"
+        app:srcCompat="@drawable/w" />
 
     <Button
         android:id="@+id/Boton_ir_ingresar"
@@ -32,8 +33,10 @@
         android:layout_marginStart="304dp"
         android:layout_marginLeft="304dp"
         android:layout_marginTop="16dp"
+        android:fontFamily="casual"
         android:onClick="Onclick"
         android:text="@string/Boton_ingresar"
+        android:textColorHighlight="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -44,6 +47,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="280dp"
         android:layout_marginLeft="280dp"
+        android:fontFamily="casual"
         android:onClick="OnclckR"
         android:text="Registrarse"
         app:layout_constraintStart_toStartOf="parent"
@@ -53,11 +57,12 @@
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginLeft="100dp"
-        android:layout_marginBottom="40dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginLeft="92dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="casual"
         android:text="COMPRA ALIMENTOS ONLINE"
-        android:textColor="@android:color/background_dark"
+        android:textColor="@color/design_default_color_on_primary"
         app:layout_constraintBottom_toTopOf="@+id/imageView9"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -72,6 +77,7 @@
         android:layout_marginEnd="100dp"
         android:layout_marginRight="100dp"
         android:text="Ver tiendas cercanas"
+        android:fontFamily="casual"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.396"
         app:layout_constraintStart_toStartOf="parent"
@@ -79,8 +85,8 @@
 
     <ImageButton
         android:id="@+id/btn_ubicacion"
-        android:layout_width="45dp"
-        android:layout_height="56dp"
+        android:layout_width="46dp"
+        android:layout_height="41dp"
         android:layout_marginStart="96dp"
         android:layout_marginLeft="96dp"
         android:layout_marginTop="33dp"
@@ -94,8 +100,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="casual"
         android:text="Acceder a mi ubicacion"
+        android:textColor="@color/design_default_color_on_primary"
         app:layout_constraintStart_toEndOf="@+id/btn_ubicacion"
         app:layout_constraintTop_toBottomOf="@+id/Spinner_comunas" />
 
@@ -106,8 +114,9 @@
         android:layout_marginStart="86dp"
         android:layout_marginLeft="86dp"
         android:layout_marginTop="26dp"
+        android:fontFamily="casual"
         android:text="Selecciona tu region"
-        android:textColor="@android:color/background_dark"
+        android:textColor="@android:color/background_light"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView9" />
 
@@ -118,6 +127,7 @@
         android:layout_marginStart="86dp"
         android:layout_marginLeft="86dp"
         android:layout_marginTop="9dp"
+        android:popupBackground="@color/design_default_color_background"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/region" />
 
@@ -129,7 +139,8 @@
         android:layout_marginLeft="86dp"
         android:layout_marginTop="16dp"
         android:text="Selecciona tu comuna"
-        android:textColor="@android:color/background_dark"
+        android:fontFamily="casual"
+        android:textColor="@android:color/background_light"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinner_Region" />
 

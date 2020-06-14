@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondo"
     tools:context=".tiendasActivity">
 
     <ImageButton
@@ -34,7 +35,7 @@
         android:layout_marginEnd="116dp"
         android:layout_marginRight="116dp"
         android:text="LISTAS TIENDAS CERCANAS"
-        android:textColor="@android:color/background_dark"
+        android:textColor="@android:color/background_light"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/btn_regresar"
@@ -69,7 +70,7 @@
         android:layout_marginRight="30dp"
         android:layout_marginBottom="41dp"
         android:text='MINIMARKER "EL VECINO"'
-        android:textColor="@android:color/background_dark"
+        android:textColor="@android:color/background_light"
         app:layout_constraintBottom_toTopOf="@+id/textView5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -95,7 +96,7 @@
         android:layout_marginLeft="9dp"
         android:layout_marginTop="39dp"
         android:text="Jose domingo 3093, nuñoa"
-        android:textColor="@android:color/background_dark"
+        android:textColor="@android:color/background_light"
         app:layout_constraintStart_toEndOf="@+id/imageView14"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
@@ -116,7 +117,7 @@
         android:layout_marginLeft="9dp"
         android:layout_marginTop="26dp"
         android:text="98197586"
-        android:textColor="@android:color/background_dark"
+        android:textColor="@android:color/background_light"
         app:layout_constraintStart_toEndOf="@+id/imageView15"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
@@ -137,7 +138,7 @@
         android:layout_marginLeft="9dp"
         android:layout_marginTop="17dp"
         android:text="Lunes a domingo"
-        android:textColor="@android:color/background_dark"
+        android:textColor="@android:color/background_light"
         app:layout_constraintStart_toEndOf="@+id/imageView16"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
@@ -148,7 +149,7 @@
         android:layout_marginStart="9dp"
         android:layout_marginLeft="9dp"
         android:text="8:00-21:00"
-        android:textColor="@android:color/background_dark"
+        android:textColor="@android:color/background_light"
         app:layout_constraintStart_toEndOf="@+id/imageView16"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
@@ -171,7 +172,7 @@
         android:layout_marginEnd="106dp"
         android:layout_marginRight="106dp"
         android:text="Como llegar"
-        android:textColor="@android:color/background_dark"
+        android:textColor="@android:color/background_light"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
@@ -185,6 +186,7 @@
         android:layout_marginTop="9dp"
         android:layout_marginEnd="111dp"
         android:layout_marginRight="111dp"
+        android:fontFamily="casual"
         android:text="Ver productos disponibles"
         android:textColorLink="@color/colorAccent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -234,7 +236,7 @@
         android:layout_marginLeft="12dp"
         android:layout_marginTop="20dp"
         android:text='MINIMARKET "LIMATAMBO"'
-        android:textColor="@android:color/background_dark"
+        android:textColor="@android:color/background_light"
         app:layout_constraintStart_toEndOf="@+id/imageView17"
         app:layout_constraintTop_toBottomOf="@+id/btn_productos_tienda" />
 
@@ -255,7 +257,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginTop="16dp"
         android:text="Irarrazabal 3081,nuñoa"
-        android:textColor="@android:color/background_dark"
+        android:textColor="@android:color/background_light"
         app:layout_constraintStart_toEndOf="@+id/imageView18"
         app:layout_constraintTop_toBottomOf="@+id/textView14" />
 
@@ -278,7 +280,7 @@
         android:layout_marginLeft="14dp"
         android:layout_marginTop="27dp"
         android:text="97843574"
-        android:textColor="@android:color/background_dark"
+        android:textColor="@android:color/background_light"
         app:layout_constraintStart_toEndOf="@+id/imageView19"
         app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
@@ -299,7 +301,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="17dp"
         android:text="Lunes a domingo"
-        android:textColor="@android:color/background_dark"
+        android:textColor="@android:color/background_light"
         app:layout_constraintStart_toEndOf="@+id/imageView20"
         app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
@@ -311,7 +313,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginTop="1dp"
         android:text="8:00-21:30"
-        android:textColor="@android:color/background_dark"
+        android:textColor="@android:color/background_light"
         app:layout_constraintStart_toEndOf="@+id/imageView20"
         app:layout_constraintTop_toBottomOf="@+id/textView17" />
 
@@ -325,7 +327,7 @@
         android:layout_marginEnd="94dp"
         android:layout_marginRight="94dp"
         android:text="Como llegar"
-        android:textColor="@android:color/background_dark"
+        android:textColor="@android:color/background_light"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageButton9"
         app:layout_constraintTop_toBottomOf="@+id/textView18" />
@@ -349,6 +351,7 @@
         android:layout_marginStart="84dp"
         android:layout_marginLeft="84dp"
         android:layout_marginTop="4dp"
+        android:fontFamily="casual"
         android:text="Ver productos disponibles"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton9" />
