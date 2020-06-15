@@ -10,7 +10,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.Toast;
-
 import BD_TABLAS_USUARIO.Conexion_SQLITE_HELPER;
 import Utilidades.Utilidades;
 
@@ -24,6 +23,7 @@ public class registrarse_Activity extends AppCompatActivity {
     private EditText correo_Electronicou;
     private EditText contreñau;
     private Button registrarmeu;
+    private Button btn_panta_tarjeta;
     private ImageButton volver;
 
     @Override
@@ -40,6 +40,7 @@ public class registrarse_Activity extends AppCompatActivity {
           // Boton
         registrarmeu=findViewById(R.id.Boton_registrar_C);
         volver=findViewById(R.id.imagen_btn_regresarR);
+        btn_panta_tarjeta=findViewById(R.id.btn_panta_tarjeta);
 
     }
 
