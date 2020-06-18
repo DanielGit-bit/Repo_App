@@ -27,9 +27,10 @@
         android:layout_marginTop="18dp"
         android:ems="10"
         android:fontFamily="casual"
+        android:hint="Nombre"
         android:inputType="textPersonName"
-        android:text="Nombre"
         android:textColor="@color/design_default_color_background"
+        android:textColorHint="@color/design_default_color_on_primary"
         app:layout_constraintStart_toEndOf="@+id/imageView5"
         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
@@ -42,10 +43,11 @@
         android:layout_marginTop="24dp"
         android:ems="10"
         android:fontFamily="casual"
+        android:hint="Apellido"
         android:inputType="textPersonName"
-        android:text="Apellido"
         android:textColor="@color/design_default_color_background"
         android:textColorHighlight="@color/design_default_color_secondary_variant"
+        android:textColorHint="@color/design_default_color_background"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Nombre_txt" />
 
@@ -69,9 +71,10 @@
         android:layout_marginTop="16dp"
         android:ems="10"
         android:fontFamily="casual"
+        android:hint="Telefono"
         android:inputType="phone"
-        android:text="Telefono"
         android:textColor="@color/design_default_color_background"
+        android:textColorHint="@color/design_default_color_background"
         app:layout_constraintStart_toEndOf="@+id/imageView7"
         app:layout_constraintTop_toBottomOf="@+id/Apellido.txt" />
 
@@ -95,9 +98,10 @@
         android:layout_marginTop="32dp"
         android:ems="10"
         android:fontFamily="casual"
+        android:hint="Correo electronico"
         android:inputType="textEmailAddress"
-        android:text="Correo electronico"
         android:textColor="@color/design_default_color_background"
+        android:textColorHint="@color/design_default_color_background"
         app:layout_constraintStart_toEndOf="@+id/imageView6"
         app:layout_constraintTop_toBottomOf="@+id/Telefono.txt" />
 
@@ -110,9 +114,10 @@
         android:layout_marginTop="36dp"
         android:ems="10"
         android:fontFamily="casual"
+        android:hint="Contraseña"
         android:inputType="textPassword"
-        android:text="Contraseña"
         android:textColor="@color/design_default_color_background"
+        android:textColorHint="@color/design_default_color_on_primary"
         app:layout_constraintStart_toEndOf="@+id/imageView10"
         app:layout_constraintTop_toBottomOf="@+id/Correo_txt" />
 
@@ -154,8 +159,8 @@
     <Button
         android:id="@+id/btn_panta_tarjeta"
         style="@style/Widget.AppCompat.Button.Colored"
-        android:layout_width="165dp"
-        android:layout_height="52dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="120dp"
         android:layout_marginLeft="120dp"
         android:layout_marginTop="100dp"

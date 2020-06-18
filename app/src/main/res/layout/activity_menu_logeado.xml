@@ -17,6 +17,7 @@
         android:layout_marginTop="29dp"
         android:layout_marginEnd="132dp"
         android:layout_marginRight="132dp"
+        android:fontFamily="casual"
         android:text="Ver tiendas cercanas"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -29,7 +30,9 @@
         android:layout_marginStart="7dp"
         android:layout_marginLeft="7dp"
         android:layout_marginBottom="47dp"
+        android:fontFamily="casual"
         android:text="Acceder a mi ubicacion"
+        android:textColor="@color/design_default_color_background"
         app:layout_constraintBottom_toTopOf="@+id/boton_ver_tiendas"
         app:layout_constraintStart_toEndOf="@+id/btn_ubicacion2" />
 
@@ -51,8 +54,9 @@
         android:layout_marginStart="83dp"
         android:layout_marginLeft="83dp"
         android:layout_marginTop="17dp"
+        android:fontFamily="casual"
         android:text="Selecciona tu comuna"
-        android:textColor="@android:color/background_dark"
+        android:textColor="@android:color/background_light"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinner_region" />
 
@@ -83,8 +87,9 @@
         android:layout_marginStart="83dp"
         android:layout_marginLeft="83dp"
         android:layout_marginTop="26dp"
+        android:fontFamily="casual"
         android:text="Selecciona tu region"
-        android:textColor="@android:color/background_dark"
+        android:textColor="@android:color/background_light"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView29" />
 
@@ -113,8 +118,9 @@
         android:layout_marginStart="108dp"
         android:layout_marginLeft="108dp"
         android:layout_marginTop="128dp"
+        android:fontFamily="casual"
         android:text="COMPRA ALIMENTOS ONLINE"
-        android:textColor="@android:color/background_dark"
+        android:textColor="@android:color/background_light"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
