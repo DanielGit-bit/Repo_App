@@ -34,7 +34,6 @@
         android:layout_marginLeft="304dp"
         android:layout_marginTop="16dp"
         android:fontFamily="casual"
-        android:onClick="Onclick"
         android:text="@string/Boton_ingresar"
         android:textColorHighlight="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
@@ -48,7 +47,6 @@
         android:layout_marginStart="280dp"
         android:layout_marginLeft="280dp"
         android:fontFamily="casual"
-        android:onClick="OnclckR"
         android:text="Registrarse"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Boton_ir_ingresar" />

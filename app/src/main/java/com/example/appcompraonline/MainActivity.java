@@ -39,6 +39,14 @@ public class MainActivity extends AppCompatActivity  {
             }
         });
 
+        ir_registrarme.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i= new Intent(getApplicationContext(),registrarse_Activity.class);
+                startActivity(i);
+            }
+        });
+
 
     }
 }

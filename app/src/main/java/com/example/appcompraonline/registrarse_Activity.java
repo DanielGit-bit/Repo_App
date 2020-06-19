@@ -55,7 +55,7 @@ public class registrarse_Activity extends AppCompatActivity {
                 helper.cerrar();
                 Toast.makeText(getApplicationContext(),"Usuario Registrado",Toast.LENGTH_LONG).show();
 
-                Intent i= new Intent(getApplicationContext(),menu_logeadoActivity.class);
+                Intent i= new Intent(getApplicationContext(),loginActivity.class);
                 startActivity(i);
             }
         });
