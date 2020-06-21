@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity  {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         //SPINNER REGIONES-COMUNAS
         regiones=findViewById(R.id.spinner_Region);
         comunas=findViewById(R.id.spinner_comuna);
