@@ -8,7 +8,6 @@ import android.widget.Spinner;
 import androidx.appcompat.app.AppCompatActivity;
 
 
-
 public class MainActivity extends AppCompatActivity  {
     private Button ir_ingresar;
     private Button ir_registrarme;
