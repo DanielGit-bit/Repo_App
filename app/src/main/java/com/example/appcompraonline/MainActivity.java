@@ -14,7 +14,6 @@ public class MainActivity extends AppCompatActivity  {
     private Button ir_registrarme;
     private Spinner regiones;
     private Spinner comunas;
-    private Button ver_tiendas;
 
 
     @Override
@@ -30,7 +29,7 @@ public class MainActivity extends AppCompatActivity  {
         //BOTONES INGRESAR-REGISTRARME
         ir_ingresar= findViewById(R.id.Boton_ir_ingresar);
         ir_registrarme = findViewById(R.id.Boton_ir_registrarse);
-        ver_tiendas = findViewById(R.id.Boton_ver_tiendas);
+
 
         ir_ingresar.setOnClickListener(new View.OnClickListener() {
             @Override
