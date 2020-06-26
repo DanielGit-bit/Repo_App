@@ -15,7 +15,6 @@
         <activity android:name=".menu_logeadoActivity" />
         <activity android:name=".carrito_comprasActivity" />
         <activity android:name=".agregar_metodo_pagoActivity" />
-        <activity android:name=".tiendasActivity" />
         <activity android:name=".registrarse_Activity" />
         <activity android:name=".loginActivity" />
         <activity android:name=".MainActivity">

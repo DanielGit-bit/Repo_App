@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondo"
+    android:background="@drawable/fondo3"
     tools:context=".menu_logeadoActivity">
 
     <Button
@@ -14,38 +14,31 @@
         android:layout_height="68dp"
         android:layout_marginStart="131dp"
         android:layout_marginLeft="131dp"
-        android:layout_marginTop="29dp"
+        android:layout_marginTop="33dp"
         android:layout_marginEnd="132dp"
         android:layout_marginRight="132dp"
-        android:fontFamily="casual"
+        android:fontFamily="sans-serif-light"
         android:text="Ver tiendas cercanas"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_ubicacion2" />
+        app:layout_constraintTop_toBottomOf="@+id/textView73" />
 
     <TextView
         android:id="@+id/textView73"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="7dp"
-        android:layout_marginLeft="7dp"
-        android:layout_marginBottom="47dp"
-        android:fontFamily="casual"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginRight="120dp"
+        android:fontFamily="sans-serif-light"
         android:text="Acceder a mi ubicacion"
         android:textColor="@color/design_default_color_background"
-        app:layout_constraintBottom_toTopOf="@+id/boton_ver_tiendas"
-        app:layout_constraintStart_toEndOf="@+id/btn_ubicacion2" />
-
-    <ImageButton
-        android:id="@+id/btn_ubicacion2"
-        android:layout_width="45dp"
-        android:layout_height="56dp"
-        android:layout_marginStart="110dp"
-        android:layout_marginLeft="110dp"
-        android:layout_marginTop="15dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner_comuna"
-        app:srcCompat="@drawable/logo_maps" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView27"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_comuna" />
 
     <TextView
         android:id="@+id/textView72"
@@ -54,9 +47,10 @@
         android:layout_marginStart="83dp"
         android:layout_marginLeft="83dp"
         android:layout_marginTop="17dp"
-        android:fontFamily="casual"
+        android:fontFamily="sans-serif-light"
         android:text="Selecciona tu comuna"
         android:textColor="@android:color/background_light"
+        android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinner_region" />
 
@@ -86,88 +80,114 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="83dp"
         android:layout_marginLeft="83dp"
-        android:layout_marginTop="26dp"
-        android:fontFamily="casual"
+        android:layout_marginTop="29dp"
+        android:fontFamily="sans-serif-light"
         android:text="Selecciona tu region"
         android:textColor="@android:color/background_light"
+        android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView29" />
-
-    <ImageView
-        android:id="@+id/imageView29"
-        android:layout_width="226dp"
-        android:layout_height="160dp"
-        android:layout_marginStart="110dp"
-        android:layout_marginLeft="110dp"
-        android:layout_marginTop="237dp"
-        android:layout_marginEnd="100dp"
-        android:layout_marginRight="100dp"
-        android:layout_marginBottom="500dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.857"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.367"
-        app:srcCompat="@drawable/w" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView11" />
 
     <TextView
         android:id="@+id/textView70"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="108dp"
-        android:layout_marginLeft="108dp"
-        android:layout_marginTop="128dp"
-        android:fontFamily="casual"
-        android:text="COMPRA ALIMENTOS ONLINE"
+        android:layout_width="282dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="112dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Bienvenido a tu tienda online"
         android:textColor="@android:color/background_light"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="262dp"
-        android:layout_marginLeft="262dp"
-        android:layout_marginTop="5dp"
-        android:text="Ver perfil"
-        android:textColor="@android:color/background_dark"
-        app:layout_constraintStart_toEndOf="@+id/textView12"
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="256dp"
+        android:layout_height="186dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView70"
+        app:srcCompat="@drawable/fondo43jpg" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="67dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView73"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_comuna"
+        app:srcCompat="@drawable/tgtgt" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="44dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tgeev" />
+
+    <ImageView
+        android:id="@+id/ver_perfil"
+        android:layout_width="44dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="257dp"
+        android:layout_marginLeft="257dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView31"
+        app:layout_constraintTop_toBottomOf="@+id/btn_ver_perfil"
+        app:srcCompat="@drawable/usuariott" />
+
+    <Button
+        android:id="@+id/btn_ver_perfil"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="111dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="294dp"
+        android:layout_marginLeft="294dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Mi perfil"
+        android:textColor="@color/design_default_color_background"
+        android:textColorHighlight="@color/design_default_color_secondary_variant"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
-        android:id="@+id/imageButton8"
-        android:layout_width="52dp"
-        android:layout_height="52dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginLeft="4dp"
-        android:layout_marginTop="6dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView12"
-        app:srcCompat="@drawable/carrito" />
-
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="3dp"
-        android:text="MI carrito"
-        android:textColor="@android:color/background_dark"
+    <Button
+        android:id="@+id/btn_mi_carrito"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="111dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginRight="164dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Mi carrito"
+        app:layout_constraintEnd_toStartOf="@+id/btn_ver_perfil"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageButton
-        android:id="@+id/imageButton12"
-        android:layout_width="52dp"
-        android:layout_height="52dp"
-        android:layout_marginStart="281dp"
-        android:layout_marginLeft="281dp"
-        android:layout_marginTop="4dp"
-        app:layout_constraintStart_toEndOf="@+id/imageButton8"
-        app:layout_constraintTop_toBottomOf="@+id/textView11"
-        app:srcCompat="@drawable/perfil" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

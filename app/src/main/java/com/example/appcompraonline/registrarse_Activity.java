@@ -23,7 +23,6 @@ public class registrarse_Activity extends AppCompatActivity {
     private EditText contreñau;
     private Button registrarmeu;
     private Button btn_panta_tarjeta;
-    private ImageButton volver;
 
     SQLITE_OpenHelper helper=new SQLITE_OpenHelper(this,"BD1",null,1);
 
@@ -40,7 +39,6 @@ public class registrarse_Activity extends AppCompatActivity {
         contreñau=findViewById(R.id.Contraseña_txt);
         // Boton
         registrarmeu=findViewById(R.id.Boton_registrar_C);
-        volver=findViewById(R.id.imagen_btn_regresarR);
         btn_panta_tarjeta=findViewById(R.id.btn_panta_tarjeta);
 
         registrarmeu.setOnClickListener(new View.OnClickListener() {

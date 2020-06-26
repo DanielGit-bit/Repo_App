@@ -19,7 +19,6 @@ public class loginActivity extends AppCompatActivity {
     private EditText contraseña;
     private Button ingresaru;
     private Button registrarse;
-    private ImageButton Volver;
     SQLITE_OpenHelper helper=new SQLITE_OpenHelper(this,"BD1",null,1);
 
     @Override
@@ -35,7 +34,6 @@ public class loginActivity extends AppCompatActivity {
         // Botones
         ingresaru=findViewById(R.id.Boton_Ingresar_U);
         registrarse=findViewById(R.id.Boton_ir_registrarse);
-        Volver=findViewById(R.id.Image_btn_regresar);
 
         ingresaru.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -64,9 +62,6 @@ public class loginActivity extends AppCompatActivity {
     public void onclick(View view){
         Intent miintent=null;
         switch (view.getId()){
-            case R.id.Image_btn_regresar:
-                miintent=new Intent(loginActivity.this,MainActivity.class);
-                break;
             case R.id.Boton_ir_registrarse:
                 miintent=new Intent(loginActivity.this,registrarse_Activity.class);
                 break;
