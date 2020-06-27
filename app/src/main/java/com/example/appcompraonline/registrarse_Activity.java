@@ -58,5 +58,13 @@ public class registrarse_Activity extends AppCompatActivity {
             }
         });
 
+        btn_panta_tarjeta.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i= new Intent(getApplicationContext(),agregar_metodo_pagoActivity.class);
+                startActivity(i);
+            }
+        });
+
     }
 }
