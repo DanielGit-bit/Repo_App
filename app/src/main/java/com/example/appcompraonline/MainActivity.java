@@ -11,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity  {
     private Button ir_ingresar;
     private Button ir_registrarme;
+    private Button ver_tiendas;
     private Spinner regiones;
     private Spinner comunas;
 
@@ -28,6 +29,7 @@ public class MainActivity extends AppCompatActivity  {
         //BOTONES INGRESAR-REGISTRARME
         ir_ingresar= findViewById(R.id.Boton_ir_ingresar);
         ir_registrarme = findViewById(R.id.Boton_ir_registrarse);
+        ver_tiendas = findViewById(R.id.Boton_ver_tiendas);
 
 
         ir_ingresar.setOnClickListener(new View.OnClickListener() {
@@ -45,6 +47,15 @@ public class MainActivity extends AppCompatActivity  {
                 startActivity(i);
             }
         });
+
+        ver_tiendas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i= new Intent(getApplicationContext(),MapsActivity.class);
+                startActivity(i);
+            }
+        });
+
 
 
     }

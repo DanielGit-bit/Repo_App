@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">App Compra Online</string>
     <string name="textview11">primer activity</string>
+    <string name="title_activity_maps">Map</string>
 
 
 </resources>
