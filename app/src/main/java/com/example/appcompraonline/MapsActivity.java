@@ -41,7 +41,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         // Add a marker in Sydney and move the camera
         LatLng Temuco = new LatLng(-38.736870810901074, -72.59025844540183);
-        mMap.addMarker(new MarkerOptions().position(Temuco).title("Temuco,Chile"));
+        mMap.addMarker(new MarkerOptions().position(Temuco).title("El Popeye"));
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(Temuco,100));
     }
 }
