@@ -20,8 +20,6 @@ public class SQLITE_OpenHelper extends SQLiteOpenHelper {
         String query = "CREATE TABLE usuarios(ID integer primary key autoincrement," +
                 "Nombre text,Apellido text,Telefono text,Correo text,Contraseña text)";
         db.execSQL(query);
-
-
     }
 
     @Override
