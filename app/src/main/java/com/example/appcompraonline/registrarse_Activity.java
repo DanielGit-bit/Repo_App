@@ -42,7 +42,9 @@ public class registrarse_Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 helper.abrir();
-                helper.insertarReg(String.valueOf(nombreu.getText()),
+
+                helper.insertarReg
+                        (String.valueOf(nombreu.getText()),
                         String.valueOf(apellidou.getText()),
                         String.valueOf(telefonou.getText()),
                         String.valueOf(correo_Electronicou.getText()),
