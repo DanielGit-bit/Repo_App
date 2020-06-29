@@ -61,7 +61,6 @@ public class SQLITE_OpenHelper extends SQLiteOpenHelper {
         mcursor=this.getReadableDatabase().query("usuarios",new String[]{"ID",
                 "Nombre","Apellido","Telefono","Correo","Contraseña"},"Correo like '"+usuario+"' " +
                 "and contraseña like '"+contraseña+"'",null,null,null,null);
-
         return mcursor;
 
     }
