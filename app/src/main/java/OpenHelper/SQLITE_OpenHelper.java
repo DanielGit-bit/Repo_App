@@ -54,7 +54,7 @@ public class SQLITE_OpenHelper extends SQLiteOpenHelper {
 
     }
 
-    //METODO QUE VALIDA SI EL USUARIO EXISTE EN LA BD,MEDIANTE SU USUARIO Y CONTRASEÑA
+    //METODO QUE VALIDA SI EL USUARIO EXISTE EN LA BASE DE DATOS , MEDIANTE SU USUARIO Y CONTRASEÑA
 
     public Cursor consultar_Usu_Contr(String usuario,String contraseña) throws SQLException {
         Cursor mcursor=null;
