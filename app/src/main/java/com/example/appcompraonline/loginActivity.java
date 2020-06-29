@@ -47,6 +47,7 @@ public class loginActivity extends AppCompatActivity {
                     }else{
                         Toast.makeText(getApplicationContext(),"Usuario y/o Contraseña incorrectos",Toast.LENGTH_LONG).show();
                     }
+                    //OBTENER LOS DATOS Y DESPUES SE LIMPIAN LOS CAMPOS A VACIO
                     correo_electronico.setText("");
                     contraseña.setText("");
                     correo_electronico.findFocus();
