@@ -6,9 +6,8 @@ import android.database.Cursor;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-import android.view.View;
-
 import androidx.annotation.Nullable;
+
 
 public class SQLITE_OpenHelper extends SQLiteOpenHelper {
     public SQLITE_OpenHelper(@Nullable Context context, @Nullable String name, @Nullable SQLiteDatabase.CursorFactory factory, int version) {
@@ -62,4 +61,5 @@ public class SQLITE_OpenHelper extends SQLiteOpenHelper {
         return mcursor;
 
     }
+
 }

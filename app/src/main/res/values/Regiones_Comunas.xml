@@ -1,41 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">App Compra Online</string>
-    <string name="textview11">primer activity</string>
-    <string name="title_activity_maps">Map</string>
-
-    <string-array name="Array_Regiones">
-        <item>RM Metropolitana</item>
-        <item>XV Arica Y Parinacota</item>
-        <item>I Tarapaca</item>
-        <item>II Antofagasta</item>
-        <item>III Atacama</item>
-        <item>IV Coquimbo</item>
-        <item>V Valparaiso</item>
-        <item>VI OHiggins</item>
-        <item>VII Maule</item>
-        <item>XVI Ñuble</item>
-        <item>VIII Biobio</item>
-        <item>IX Araucania</item>
-        <item>XIV Los rios</item>
-        <item>X Los Lagos</item>
-        <item>XI Aisen</item>
-        <item>XII Magallanes y Antartica</item>
+    <string-array name="Array_regiones">
+    <item>RM Metropolitana</item>
+    <item>XV Arica Y Parinacota</item>
     </string-array>
-
-    <string-array name="Array_Metropolitana">
+    <string-array name="Array_metropolitana">
         <item>Calera de tango</item>
         <item>Cerrillos</item>
         <item>Cerro Navia</item>
         <item>Las Condes</item>
         <item>Maipu</item>
     </string-array>
-    <string-array name="Array_Arica">
+    <string-array name="Array_arica">
         <item>Arica</item>
         <item>Camarones</item>
         <item>General Lagos</item>
         <item>Putre</item>
     </string-array>
-    <string-array name="Array_Tarapaca">
+    <string-array name="Array_tarapaca">
         <item>Alto Hospicio</item>
         <item>Camiño</item>
         <item>Colchane</item>
@@ -43,7 +25,7 @@
         <item>Iquique</item>
         <item>Pica</item>
     </string-array>
-    <string-array name="Array_Antofagasta">
+    <string-array name="Array_antofagasta">
         <item>Antofagasta</item>
         <item>Calama</item>
         <item>Maria Elena</item>
@@ -51,7 +33,7 @@
         <item>Ollague</item>
         <item>San Pedro de Atacama</item>
     </string-array>
-    <string-array name="Array_Atacama">
+    <string-array name="Array_atacama">
         <item>Alto del Carmen</item>
         <item>Caldera</item>
         <item>Chañaral</item>
@@ -59,7 +41,7 @@
         <item>Diego de Almagro</item>
         <item>Freirina</item>
     </string-array>
-    <string-array name="Array_Coquimbo">
+    <string-array name="Array_coquimbo">
         <item>Andacollo</item>
         <item>Canela</item>
         <item>Combarbala</item>
@@ -70,7 +52,7 @@
         <item>La Vilos</item>
         <item>Monte Patria</item>
     </string-array>
-    <string-array name="Array_Valparaiso">
+    <string-array name="Array_valparaiso">
         <item>Algarrobo</item>
         <item>Cabildo</item>
         <item>Calera</item>
@@ -78,7 +60,7 @@
         <item>Cartagena</item>
         <item>CasaBlanca</item>
     </string-array>
-    <string-array name="Array_Ohiggins">
+    <string-array name="Array_ohiggins">
         <item>Chepica</item>
         <item>Chimbarongo</item>
         <item>Codegua</item>
@@ -86,7 +68,7 @@
         <item>Coltauco</item>
         <item>Doñigua</item>
     </string-array>
-    <string-array name="Array_Maule">
+    <string-array name="Array_maule">
         <item>Cauquenes</item>
         <item>Chanco</item>
         <item>Chanco</item>
@@ -94,7 +76,7 @@
         <item>Constitucion</item>
         <item>Curepto</item>
     </string-array>
-    <string-array name="Array_ñuble">
+    <string-array name="Array_Ñuble">
         <item>Bulnes</item>
         <item>Chillan</item>
         <item>Chillan Viejo</item>
@@ -102,7 +84,7 @@
         <item>Coelemu</item>
         <item>Coihueco</item>
     </string-array>
-    <string-array name="Array_Biobio">
+    <string-array name="Array_biobio">
         <item>Alto Bio-bio</item>
         <item>Antuco</item>
         <item>Arauco</item>
@@ -110,7 +92,7 @@
         <item>Cañete</item>
         <item>Chiguayante</item>
     </string-array>
-    <string-array name="Array_Araucania">
+    <string-array name="Array_araucania">
         <item>Angol</item>
         <item>Carahue</item>
         <item>Cholchol</item>
@@ -144,7 +126,7 @@
         <item>Vilcun</item>
         <item>Villarica</item>
     </string-array>
-    <string-array name="Array_Losrios">
+    <string-array name="Array_losrios">
         <item>Corral</item>
         <item>Futrono</item>
         <item>La union</item>
@@ -152,7 +134,7 @@
         <item>Lanco</item>
         <item>Los Lagos</item>
     </string-array>
-    <string-array name="Array_Loslagos">
+    <string-array name="Array_loslagos">
         <item>Ancud</item>
         <item>Calbuco</item>
         <item>Castro</item>
@@ -160,7 +142,7 @@
         <item>Chonchi</item>
         <item>Cochamo</item>
     </string-array>
-    <string-array name="Array_Aisen">
+    <string-array name="Array_aisen">
         <item>Aysen</item>
         <item>Chile Chico</item>
         <item>Cisnes</item>
@@ -168,7 +150,7 @@
         <item>Coyhaique</item>
         <item>Guaitecas</item>
     </string-array>
-    <string-array name="Array_Magallanes">
+    <string-array name="Array_magallanes">
         <item>Antartica</item>
         <item>Cabo de Hornos</item>
         <item>Laguna Blanca</item>
@@ -176,4 +158,6 @@
         <item>Porvenir</item>
         <item>Primavera</item>
     </string-array>
+
+
 </resources>

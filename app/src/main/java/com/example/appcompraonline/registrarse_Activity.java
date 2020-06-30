@@ -15,7 +15,6 @@ public class registrarse_Activity extends AppCompatActivity {
     private EditText nombreu;
     private EditText apellidou;
     private EditText telefonou;
-    private EditText direccionu;
     private EditText correo_Electronicou;
     private EditText contreñau;
     private Button registrarmeu;
