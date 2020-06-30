@@ -1,13 +1,25 @@
 package com.example.appcompraonline;
 
+import android.Manifest;
+import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.location.Location;
+import android.location.LocationListener;
+import android.location.LocationManager;
+import android.location.LocationProvider;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.TextView;
+
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 
 public class MainActivity extends AppCompatActivity  implements AdapterView.OnItemSelectedListener {
     private Button ir_ingresar;
@@ -21,6 +33,15 @@ public class MainActivity extends AppCompatActivity  implements AdapterView.OnIt
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        int permissionCheck= ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION);
+
+        if (permissionCheck== PackageManager.PERMISSION_DENIED){
+            if (ActivityCompat.shouldShowRequestPermissionRationale(this,Manifest.permission.ACCESS_FINE_LOCATION)){
+
+            }else {
+                ActivityCompat.requestPermissions(this,new String[]{Manifest.permission.ACCESS_FINE_LOCATION},1);
+            }
+        }
 
         //SPINNER REGIONES-COMUNAS
         regiones=findViewById(R.id.spinner_Region);

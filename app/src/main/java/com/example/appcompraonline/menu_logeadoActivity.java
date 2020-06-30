@@ -27,6 +27,7 @@ public class menu_logeadoActivity extends AppCompatActivity implements AdapterVi
 
         regiones2=findViewById(R.id.spinner_region);
         comunas2=findViewById(R.id.spinner_comuna);
+
         ArrayAdapter<CharSequence> adapter=ArrayAdapter.createFromResource
                 (this,R.array.Array_Regiones,android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -49,12 +50,7 @@ public class menu_logeadoActivity extends AppCompatActivity implements AdapterVi
                 startActivity(i);
             }
         });
-
-
-
     }
-
-
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
         int[]localidades={
