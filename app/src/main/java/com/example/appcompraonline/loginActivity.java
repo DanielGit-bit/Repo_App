@@ -34,6 +34,7 @@ public class loginActivity extends AppCompatActivity {
         ingresaru=findViewById(R.id.Boton_Ingresar_U);
         registrarse=findViewById(R.id.Boton_ir_registrarse);
 
+
         ingresaru.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
