@@ -38,8 +38,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         }
         mMap.setMyLocationEnabled(true);
 
-        LatLng Temuco = new LatLng(-38.736870810901074, -72.59025844540183);
-        mMap.addMarker(new MarkerOptions().position(Temuco).title("El Popeye"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(Temuco,13));
+        LatLng Quepe = new LatLng( -38.87187, -72.605256);
+        mMap.addMarker(new MarkerOptions().position(Quepe).title("Tienda Los Colonos"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(Quepe,25));
+
+
+        }
     }
-}
