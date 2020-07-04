@@ -9,8 +9,8 @@ import android.database.sqlite.SQLiteOpenHelper;
 import androidx.annotation.Nullable;
 
 
-public class SQLITE_OpenHelper extends SQLiteOpenHelper {
-    public SQLITE_OpenHelper(@Nullable Context context, @Nullable String name, @Nullable SQLiteDatabase.CursorFactory factory, int version) {
+public class BD_USUARIOS extends SQLiteOpenHelper {
+    public BD_USUARIOS(@Nullable Context context, @Nullable String name, @Nullable SQLiteDatabase.CursorFactory factory, int version) {
         super(context, name, factory, version);
     }
 

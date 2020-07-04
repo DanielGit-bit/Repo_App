@@ -21,4 +21,49 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/usuariott" />
 
+    <Button
+        android:id="@+id/btn_editar"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="49dp"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Editar datos"
+        app:layout_constraintEnd_toStartOf="@+id/btn_cancelar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lista" />
+
+    <Button
+        android:id="@+id/btn_cancelar"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="137dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Cancelar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_editar"
+        app:layout_constraintTop_toBottomOf="@+id/lista" />
+
+    <ListView
+        android:id="@+id/lista"
+        android:layout_width="315dp"
+        android:layout_height="369dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

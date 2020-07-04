@@ -10,7 +10,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import OpenHelper.SQLITE_OpenHelper;
+import OpenHelper.BD_USUARIOS;
 
 public class loginActivity extends AppCompatActivity {
 
@@ -18,7 +18,8 @@ public class loginActivity extends AppCompatActivity {
     private EditText contraseña;
     private Button ingresaru;
     private Button registrarse;
-    SQLITE_OpenHelper helper=new SQLITE_OpenHelper(this,"BD1",null,1);
+
+    BD_USUARIOS helper=new BD_USUARIOS(this,"BD1",null,1);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

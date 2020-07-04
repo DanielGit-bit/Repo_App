@@ -14,6 +14,7 @@ public class menu_logeadoActivity extends AppCompatActivity implements AdapterVi
 
     private Button verperfilp;
     private Button ver_carrito;
+    private Button vertiendas2;
     private Spinner regiones2;
     private Spinner comunas2;
 
@@ -24,6 +25,7 @@ public class menu_logeadoActivity extends AppCompatActivity implements AdapterVi
 
         verperfilp=findViewById(R.id.btn_ver_perfil);
         ver_carrito=findViewById(R.id.btn_mi_carrito);
+        vertiendas2=findViewById(R.id.boton_ver_tiendas);
 
         regiones2=findViewById(R.id.spinner_region);
         comunas2=findViewById(R.id.spinner_comuna);
@@ -50,6 +52,14 @@ public class menu_logeadoActivity extends AppCompatActivity implements AdapterVi
                 startActivity(i);
             }
         });
+        vertiendas2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i= new Intent(getApplicationContext(),MapsActivity.class);
+                startActivity(i);
+            }
+        });
+
     }
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {

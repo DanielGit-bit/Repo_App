@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import OpenHelper.SQLITE_OpenHelper;
+import OpenHelper.BD_USUARIOS;
 
 public class registrarse_Activity extends AppCompatActivity {
 
@@ -20,7 +20,7 @@ public class registrarse_Activity extends AppCompatActivity {
     private Button registrarmeu;
     private Button btn_panta_tarjeta;
 
-    SQLITE_OpenHelper helper=new SQLITE_OpenHelper(this,"BD1",null,1);
+    BD_USUARIOS helper=new BD_USUARIOS(this,"BD1",null,1);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,7 +41,6 @@ public class registrarse_Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 helper.abrir();
-
                 helper.insertarReg
                         (String.valueOf(nombreu.getText()),
                         String.valueOf(apellidou.getText()),
