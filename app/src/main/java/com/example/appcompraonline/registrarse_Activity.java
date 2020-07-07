@@ -48,7 +48,7 @@ public class registrarse_Activity extends AppCompatActivity {
                         String.valueOf(correo_Electronicou.getText()),
                         String.valueOf(contreñau.getText()));
                 helper.cerrar();
-                Toast.makeText(getApplicationContext(),"Usuario Registrado",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),"Usuario Registrado----Al momento de comprar deberas agregar un metodo de pago",Toast.LENGTH_LONG).show();
 
                 Intent i= new Intent(getApplicationContext(),loginActivity.class);
                 startActivity(i);
