@@ -39,7 +39,7 @@ public class BD_USUARIOS extends SQLiteOpenHelper {
     }
 
 
-    //METODO QUE INSERTA REGISTRO EN LA TABLA USUARIOS
+    //METODO QUE INSERTA EN LA BASE DATOS
     public void insertarReg(String nombre, String apellido, String telefono, String correo, String contraseña) {
         ContentValues valores = new ContentValues();
         valores.put("Nombre", nombre);
@@ -50,8 +50,6 @@ public class BD_USUARIOS extends SQLiteOpenHelper {
         this.getWritableDatabase().insert("usuarios", null, valores);
 
     }
-
-    //METODO QUE VALIDA SI EL USUARIO EXISTE EN LA BASE DE DATOS , MEDIANTE SU USUARIO Y CONTRASEÑA
 
     public Cursor consultar_Usu_Contr(String usuario,String contraseña) throws SQLException {
         Cursor mcursor=null;

@@ -28,14 +28,14 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="49dp"
         android:layout_marginLeft="49dp"
-        android:layout_marginTop="78dp"
         android:layout_marginEnd="64dp"
         android:layout_marginRight="64dp"
+        android:layout_marginBottom="67dp"
         android:fontFamily="sans-serif-light"
         android:text="Editar datos"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btn_cancelar"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lista" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btn_cancelar"
@@ -44,26 +44,81 @@
         android:layout_height="50dp"
         android:layout_marginStart="64dp"
         android:layout_marginLeft="64dp"
-        android:layout_marginTop="78dp"
         android:layout_marginEnd="44dp"
         android:layout_marginRight="44dp"
+        android:layout_marginBottom="65dp"
         android:fontFamily="sans-serif-light"
         android:text="Cancelar"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btn_editar"
-        app:layout_constraintTop_toBottomOf="@+id/lista" />
+        app:layout_constraintStart_toEndOf="@+id/btn_editar" />
 
-    <ListView
-        android:id="@+id/lista"
-        android:layout_width="315dp"
-        android:layout_height="369dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginLeft="52dp"
-        android:layout_marginTop="29dp"
-        android:layout_marginEnd="44dp"
-        android:layout_marginRight="44dp"
-        app:layout_constraintEnd_toEndOf="parent"
+    <EditText
+        android:id="@+id/edit_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="82dp"
+        android:layout_marginLeft="82dp"
+        android:layout_marginTop="43dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+    <EditText
+        android:id="@+id/edit_apellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="82dp"
+        android:layout_marginLeft="82dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_nombre" />
+
+    <EditText
+        android:id="@+id/edit_telefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="82dp"
+        android:layout_marginLeft="82dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_apellido" />
+
+    <EditText
+        android:id="@+id/edit_correo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="82dp"
+        android:layout_marginLeft="82dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginRight="116dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_telefono" />
+
+    <EditText
+        android:id="@+id/edit_contraseña"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="42dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_correo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

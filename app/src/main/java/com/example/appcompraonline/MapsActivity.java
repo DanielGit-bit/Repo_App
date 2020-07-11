@@ -49,11 +49,11 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         }
         mMap.setMyLocationEnabled(true);
 
-        LatLng Quepe = new LatLng( -38.87187, -72.605256);
-        mMap.addMarker(new MarkerOptions().position(Quepe).
+        LatLng temuco = new LatLng( -38.87187, -72.605256);
+        mMap.addMarker(new MarkerOptions().position(temuco).
                 title("Tienda Los Colonos").snippet("9:00am-21:00pm")
         .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(Quepe));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(temuco));
         mMap.animateCamera(CameraUpdateFactory.zoomTo(15),200,null);
 
 
